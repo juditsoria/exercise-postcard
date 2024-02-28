@@ -1,3 +1,7 @@
+body {
+	background: black;
+}
+
 .postcard {
 	background: white;
 	width: 400px;
@@ -6,15 +10,14 @@
 }
 .postcard-header {
 	display: flex;
-	
 }
 .postcard-header img {
-	width: 50%;
-	height: 50%;
+	width: 50px;
+	height: 50px;
 }
 .postcard-header h1 {
-	width: 90%;
-	height: 90%;
+	width: 85%;
+	height: 500%;
 }
 .postcard-body {
 	display: flex;
@@ -24,18 +27,17 @@
 }
 .body-left,
 .body-right {
-	padding: 10%;
+	padding: 1%;
 }
 
 input {
 	border: none;
-	border-bottom: 10%;
+	border-bottom: gray 10%;
 }
 .postcard-footer {
 	text-align: center;
-	
 }
 button {
-	background-color: darkturquoise;
-	padding: 50%;
+	background-color: rgb(40, 74, 75);
+	padding: 20px;
 }
