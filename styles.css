@@ -15,12 +15,13 @@ body {
 	display: flex;
 }
 .postcard-header img {
-	width: 30%;
-	height: 30%;
+	width: 50%;
+	height: 50%;
 }
 .postcard-header h1 {
-	width: 80%;
-	height: 50%;
+	width: 90%;
+	height: 90%;
+	display: flex;
 }
 .postcard-body {
 	display: flex;
